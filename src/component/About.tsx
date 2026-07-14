@@ -51,7 +51,7 @@ export default function About() {
                 {/* Main Avatar Photo */}
                 <div className="absolute bottom-0 left-0 w-56 h-64 sm:w-60 sm:h-72 md:w-56 md:h-64 lg:w-64 lg:h-72 rounded-[2rem] overflow-hidden border-4 border-white shadow-md bg-rose-50">
                   <Image
-                    src="/profile_avatar.png"
+                    src="/avata.jpg"
                     alt="Trương Thị Lâm"
                     fill
                     sizes="(max-width: 768px) 100vw, 30vw"
