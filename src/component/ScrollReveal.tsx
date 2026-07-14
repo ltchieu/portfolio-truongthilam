@@ -24,16 +24,21 @@ export default function ScrollReveal({
     // Avoid running on server side
     if (typeof window === "undefined") return;
 
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 1200);
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
+          clearTimeout(timer);
           observer.unobserve(entry.target);
         }
       },
       {
-        threshold: 0.1, // trigger when 10% of section enters viewport
-        rootMargin: "0px 0px -60px 0px" // bottom offset to trigger slightly earlier
+        threshold: 0.02, // trigger when 2% of section enters viewport (more reliable on mobile)
+        rootMargin: "0px 0px -20px 0px" // trigger slightly earlier but safer for mobile
       }
     );
 
@@ -43,6 +48,7 @@ export default function ScrollReveal({
     }
 
     return () => {
+      clearTimeout(timer);
       if (currentRef) {
         observer.unobserve(currentRef);
       }

@@ -106,7 +106,9 @@ export default function HueVideoProject() {
                   playsInline
                   preload="metadata"
                   className="w-full h-full object-cover"
-                />
+                >
+                  Trình duyệt của bạn không hỗ trợ phát video định dạng này.
+                </video>
               )}
             </div>
           </div>

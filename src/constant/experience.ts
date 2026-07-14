@@ -29,15 +29,15 @@ export const EXPERIENCES: JobDetail[] = [
   },
   {
     title: "Nhân viên Content Marketing",
-    company: "Thương hiệu Y Viên (Y Viên Spa & Clinic)",
+    company: "BeeUp",
     period: "12/2024 - 02/2025",
-    logo: "/logo-y-vien.png",
+    logo: "/logo-beeup.png",
     tasks: [
-      "Xây dựng **kế hoạch nội dung hàng tuần** và trực tiếp sản xuất, **thiết kế hình ảnh bài đăng** cho Fanpage Facebook chính thức.",
-      "Nghiên cứu xu hướng mới trên mạng xã hội để **lên kịch bản chi tiết** cho các video ngắn trên kênh TikTok.",
-      "Lên ý tưởng **góc quay sáng tạo**, phối hợp chuẩn bị bối cảnh và đạo cụ phục vụ sản xuất video.",
-      "Tập trung **quản lý kênh TikTok**, theo dõi tương tác, bình luận và phản hồi giải đáp thắc mắc của khách hàng.",
-      "Trực tiếp **quay phim, chỉnh sửa hiệu ứng âm thanh và dựng hoàn thiện** các video ngắn thu hút người xem."
+      "Chịu trách nhiệm **nghiên cứu chủ đề và viết content** quảng cáo, truyền thông cho các chiến dịch trên Fanpage Facebook và các kênh social media của BeeUp.",
+      "Lên ý tưởng sáng tạo và **xây dựng kế hoạch nội dung hàng tuần**, đảm bảo hình ảnh thương hiệu nhất quán và thu hút nhóm đối tượng khách hàng mục tiêu.",
+      "Phối hợp lên kịch bản chi tiết, **quay dựng và sản xuất các video ngắn** (Reels, TikTok) giới thiệu sản phẩm và dịch vụ của thương hiệu.",
+      "Theo dõi tương tác, phản hồi tin nhắn/bình luận của khách hàng và **đo lường hiệu quả bài đăng** để tối ưu hóa chiến lược nội dung tiếp theo.",
+      "**Thành quả**: Đóng góp tích cực vào chiến dịch tăng trưởng tương tác tự nhiên trên kênh truyền thông, nâng cao tỷ lệ chuyển đổi từ các bài viết quảng cáo."
     ]
   },
   {

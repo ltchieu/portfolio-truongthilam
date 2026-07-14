@@ -114,7 +114,9 @@ export default function FeaturedProject({ project }: FeaturedProjectProps) {
                       preload="metadata"
                       playsInline
                       className="w-full h-full object-contain"
-                    />
+                    >
+                      Trình duyệt của bạn không hỗ trợ phát video định dạng này.
+                    </video>
                   </div>
                 ) : projectImages.length > 0 ? (
                   <>
