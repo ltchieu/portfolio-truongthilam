@@ -73,7 +73,7 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
   },
   {
     id: "btk-chang-son",
-    title: "Phóng sự \"Gió\" Chàng Sơn",
+    title: "Phóng sự quạt giấy Chàng Sơn",
     subtitle: "Thiết kế Đồ họa Báo chí & Infographic",
     category: "Editorial Design",
     tools: ["Id", "Ps", "Ai"],
